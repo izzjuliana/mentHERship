@@ -32,6 +32,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0rem;
+    font-family: Poppins;
     font-size: 1.25rem;
 }
 
@@ -51,9 +52,11 @@ nav img{
 .home-page{
     background-color: #FAD9DB;
     height: 100vh;
+    font-family: Poppins;
   }
   
 .about-us{
+    font-family: Poppins;
     background-color: #FAD9DB;
     height: 100vh;
     text-align: left;
@@ -62,6 +65,7 @@ nav img{
 }
     
 .how-page{
+    font-family: Poppins;
     background-color: #FAD9DB;
     height: 100vh;
 }
