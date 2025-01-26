@@ -14,8 +14,11 @@ function Home() {
             <div className="submit">Login!</div>
             <div className="submit">Sign Up!</div>
         </div>
+      
         <img src={flower_image} className="flower flower-left"/>
+    
         <img src={flower_image} className= "flower flower-right"/>
+      
     </div>
   )
 }
