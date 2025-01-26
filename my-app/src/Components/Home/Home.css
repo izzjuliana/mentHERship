@@ -48,15 +48,38 @@
     position: absolute;
     width: 350px;
     height: 500px;
+    animation: wave 3s infinite ease-in-out;
+    
+    
 }
  .flower-left {
     left: 50px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 20%;
+    
  }
 
  .flower-right {
     right: 50px;
-    top: 50%;
-    transform: translateY(-50%)
+    top: 20%;
  }
+
+
+
+ @keyframes wave {
+  0% {
+      transform: translateX(0px) rotateZ(0deg);
+  }
+  25% {
+      transform: translateX(10px) rotateZ(2deg);
+  }
+  50% {
+      transform: translateX(0px) rotateZ(0deg);
+  }
+  75% {
+      transform: translateX(-10px) rotateZ(-2deg);
+  }
+  100% {
+      transform: translateX(0px) rotateZ(0deg);
+  }
+}
+
