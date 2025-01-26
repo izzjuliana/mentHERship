@@ -10,7 +10,7 @@ import Home from "./Components/Home/Home";
 import { AuthProvider } from './contexts/AuthContext';
 function App() {
   return(
-    <AuthProvider>
+    
     <Router>
         <Navbar />
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/login-signup" element={<Signup />} />
         </Routes>
      </Router>
-     </AuthProvider>
+     
 
     );
 } 
