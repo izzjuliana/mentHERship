@@ -33,7 +33,6 @@ body{
     align-items: center;
     padding: 0rem;
     font-size: 1.25rem;
-    
 }
 
 .nav li.active{
@@ -48,3 +47,22 @@ nav img{
     width: auto;
     margin-left: -20px;
 }
+
+.home-page{
+    background-color: #FAD9DB;
+    height: 100vh;
+  }
+  
+.about-us{
+    background-color: #FAD9DB;
+    height: 100vh;
+    text-align: left;
+    padding: 7rem;
+    font-size: 5rem;
+}
+    
+.how-page{
+    background-color: #FAD9DB;
+    height: 100vh;
+}
+  
