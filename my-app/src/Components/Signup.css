@@ -24,7 +24,7 @@
 .text{
     color: black;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .underline {
@@ -90,7 +90,11 @@
 }
 
 
-.submit{
+button {
+    border: none;
+}
+
+.submit {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,8 +108,11 @@
     cursor: pointer;
 }
 
-.gray{
-    background: #f2bfc8;
-    color: white;
-}
 
+.error-message {
+    color: #de1c40dd;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
